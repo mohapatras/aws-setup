@@ -13,7 +13,7 @@ if [ -z "$ami" ] || [ -z "$instanceType" ]; then
 fi
 
 # settings
-export name="fast-ai"
+export name="deep-learning"
 export cidr="0.0.0.0/0"
 
 hash aws 2>/dev/null
