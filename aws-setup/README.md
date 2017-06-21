@@ -1,6 +1,6 @@
 # aws-setup
 
-NOTE:- Credit for the original files goes to Jeremy Howard.
+NOTE:- Read the files and edit according to your needs.
 
 This repository contains shell scripts for setting up CPU/GPU instance in EC2 at Amazon Web Services.
 The GPU setup has Keras with Theano as backend.
