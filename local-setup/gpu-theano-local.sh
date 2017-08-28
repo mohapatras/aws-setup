@@ -27,17 +27,11 @@ conda install -y bcolz
 conda upgrade -y --all
 cd ~
 
-# install and configure theano
-pip install theano
-echo "[global]
-device = gpu
-floatX = float32
+# install and configure tensorflow
+pip install tensorflow-gpu
 
-[cuda]
-root = /usr/local/cuda" > ~/.theanorc
-
-# install cudnn libraries or try to download from main NVIDIA website.
-wget "http://bhabani/files/cudnn.tgz" -O "cudnn.tgz"
+# install cudnn libraries or try to download from main NVIDIA website or from my OneDrive link.
+wget "https://1drv.ms/u/s!AuG5E21NNgF-jKZQEnO4yyseY7PClQ"
 tar -zxf cudnn.tgz
 cd cuda
 sudo cp lib64/* /usr/local/cuda/lib64/
